@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root{
+    --font1: 'Poppins', sans-serif;
+}
+
+
+
+body{
+    background-color: rgb(34, 34, 34);
+    font-family: var(--font1);
+    color: white;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/*header*/
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+h1{
+    font-weight: 300;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    gap: 30px;
+    margin: 30px;
+    font-size: 1.1em;
+}
+
+a:hover{
+    color: rgb(132, 13, 201);
+    transition: 0.3s all;
+}
+
+/*main*/
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 46px;
+}
+
+h2{
+    font-size: 52px;
+    line-height: 10px;
+}
+
+span{
+    color: rgb(132, 13, 201);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-weight: 100;
+    font-size: 1.2em;
+}
+
+img{
+    width: 600px;
+    padding-left: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 10px;
+}
+
+form [type="submit"]{
+    width: 50%;
+    background-color: rgb(132, 13, 201);
+    color: white;
+    font-weight: 700;
+}
+
+form [type="submit"]{
+    cursor: pointer;
+}
+
+input{
+    padding: 20px;
+    margin-top: 20px;
+    font-family: var(--font1);
+    font-weight: medium;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
