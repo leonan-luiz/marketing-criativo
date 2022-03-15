@@ -88,7 +88,6 @@ form{
     display: flex;
     flex-direction: column;
     width: 70%;
-    padding: 10px;
 }
 
 form [type="submit"]{
